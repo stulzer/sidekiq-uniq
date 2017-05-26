@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'sidekiq/uniq/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "sidekiq-uniq"
+  spec.name          = "sidekiq-uniq-no-rails"
   spec.version       = Sidekiq::Uniq::VERSION
   spec.authors       = ["Caio SBA"]
   spec.email         = ["caiosba@gmail.com"]

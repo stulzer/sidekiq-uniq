@@ -1,5 +1,4 @@
 require 'sidekiq/uniq/version'
-require 'sidekiq/uniq/railtie'
 
 module Sidekiq
   module Uniq
